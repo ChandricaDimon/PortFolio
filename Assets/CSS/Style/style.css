@@ -1,13 +1,17 @@
-h1 {font-family: Helvetica;margin: 10px;font-size: 230%}
-h2 {margin: 10px;font-size: 150%}
+h1 {font-family: Helvetica;margin: 10px;font-size: 230%; padding-left: 20px}
+h2 {margin: 10px;font-size: 150%;padding-left: 20px}
+p {font-family: Helvetica;
+font-size: 13pt;}
 
 
 
 
 
-img {width:200px;
-height:250px;padding-top:15px; padding-left: 35px;border-radius: 10%;margin-bottom: 10px 
+
+.logo {padding-left: 50px;
 }
+
+.gallery {display: inline-block;}
 
 .newspaper {
     -webkit-column-count: 3;
@@ -23,11 +27,28 @@ height:250px;padding-top:15px; padding-left: 35px;border-radius: 10%;margin-bott
     margin-top: 30px;
     margin-bottom: 30px;margin-left: 25px;margin-right: 25px
 }
+.grey {height:265px;
+    width:930px;
+    border-top:  width: 100%;
+   padding: 22px 20px;
+    margin-bottom: 40px;
+    margin-left:40px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: none;
+    background-color:#f3f3f3;
+    color: black;
+    border-radius: 10%;
+    margin-top: 40px;
+    border: 3px solid lightgrey;
+    display: inline-block;
+    
+}
 
 input[type=text] {
     height:300px;
     width:958px;
-    border-top:  width: 100%;
+    border-top:  width: 200%;
     padding: 12px 20px;
     margin: 8px 0;
     margin-left:20px;
@@ -40,7 +61,7 @@ input[type=text] {
     border: 3px solid lightgrey;
 }
     
-.fa-link1 {margin: 5px;color: grey}
+.fa-link1 {margin: 5px;color: grey;padding-left: 25px}
 
 .fa-link2 {margin: 5px;color: grey}
 
@@ -75,5 +96,25 @@ li a:hover:not(.active) {
 
 li a.active {
     color: white;
-    background-color:  grey;
+    background-color: grey; 
 }
+
+.sax {width: 300px;
+height:160px;padding: 20px}
+
+.rock {width: 240px;
+height:320px;padding: 20px;
+margin-left: 23px}
+
+.pink {width: 240px;
+height:320px;padding: 20px}
+
+.ribbon {width: 240px;
+height:320px;padding: 20px}
+
+.portrait {width: 200px;
+    border-radius: 20%;
+position: inherit;
+padding-left: 30px;}
+
+.contact {font-size: 20pt;}

@@ -7,6 +7,11 @@ font-size: 13pt; text-indent: 20pt;
 padding-bottom: 15px}
 
 .logo {padding-left: 50px;
+    margin-bottom: 40px;
+    border-radius: 10%;
+    border: 3px solid lightgrey;
+    background-color: white;
+    height: px
 }
 
 .gallery {display: inline-block;}
@@ -21,7 +26,7 @@ padding-bottom: 15px}
     margin-left:40px;
     box-sizing: border-box;
     border: none;
-    background-color:#f3f3f3;
+    background-color:white;
     color: black;
     border-radius: 10%;
     margin-top: 40px;
@@ -46,7 +51,7 @@ input[type=text] {
     border: 3px solid lightgrey;
 }
     
-.fa-link1 {margin: 5px;color: grey;padding-left: 25px}
+.fa-link1 {margin: 12px;color: grey;padding-left: 25px}
 
 .fa-link2 {margin: 5px;color: grey}
 
@@ -54,21 +59,20 @@ input[type=text] {
 
 .fa-link4 {margin: 5px;color: grey}
 
-ul {
+.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     border: 2px solid #e7e7e7;
-    background-color: #f3f3f3;
+    background-color: white;
 }
 
 
-li {
+
+
+.navItem {
     float: right;
-}
-
-li a {
     display: block;
     color: black;
     text-align: center;
@@ -85,12 +89,12 @@ li a.active {
     background-color: grey; 
 }
 
-.sax {width: 280px;
-height:160px;padding: 20px}
+.sax {width: 298px;
+height:180px;padding: 20px}
 
 .rock {width: 240px;
 height:320px;padding: 20px;
-margin-left: 23px}
+margin-left: 43px}
 
 .pink {width: 240px;
 height:320px;padding: 20px}
@@ -116,16 +120,15 @@ margin-bottom: -60px}
     width:933px;
     border-top:  width: 100%;
     margin-bottom: 10px;
-    margin-left:160px;
+    margin-left:282px;
     box-sizing: border-box;
     border: none;
-    background-color:#f3f3f3;
+    background-color:white;
     color: black;
     border-radius: 10%;
     margin-top: 20px;
     border: 3px solid lightgrey;
     display: inline-block;
-    
     text-align: center;
     letter-spacing: 1pt;
     
@@ -138,16 +141,15 @@ margin-bottom: -60px}
     border-top:  width: 100%;
    padding: 10px 10px;
     margin-bottom: 40px;
-    margin-left:160px;
+    margin-left:282px;
     box-sizing: border-box;
     border: none;
-    background-color:#f3f3f3;
+    background-color:white;
     color: black;
     border-radius: 10%;
     margin-top: 40px;
     border: 3px solid lightgrey;
     display: inline-block;
-    
     text-align: center;
     padding-left: 1px;
     letter-spacing: 1pt;
@@ -157,22 +159,21 @@ margin-bottom: -60px}
 .contact {height:177px;
     width:933px;
     border-top:  width: 100%;
-   padding: 10px 10px;
+    padding: 10px 10px;
     margin-bottom: 40px;
-    margin-left:160px;
+    margin-left:282px;
     box-sizing: border-box;
     border: none;
-    background-color:#f3f3f3;
+    background-color:white;
     color: black;
     border-radius: 10%;
-    margin-top: 40px;
+    
     border: 3px solid lightgrey;
     display: inline-block;
-    
     text-align: center;
     padding-left: 1px;
     letter-spacing: 1pt;
-font-size: 13pt;}
+    font-size: 13pt;}
 
     
 .container {
@@ -184,3 +185,7 @@ font-size: 13pt;}
     margin-top: -9em;
     margin-left: -20em;
     }
+
+.body {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
+}

@@ -55,7 +55,7 @@ input[type=text] {
 
 ul {
     list-style-type: none;
-     margin: 0;
+    margin: 0;
     padding: 0;
     overflow: hidden;
     border: 2px solid #e7e7e7;
@@ -116,18 +116,33 @@ text-align: right; margin-right: 40px;}
     text-align: right;
 margin-right: 40px;}
 
-.bh {font-size: 15pt;
-    text-align: left;}
+.bh {height:158px;
+    width:933px;
+    border-top:  width: 100%;
+    margin-bottom: 10px;
+    margin-left:160px;
+    box-sizing: border-box;
+    border: none;
+    background-color:#f3f3f3;
+    color: black;
+    border-radius: 10%;
+    margin-top: 20px;
+    border: 3px solid lightgrey;
+    display: inline-block;
+    position: inherit;
+    text-align: center;
+    letter-spacing: 1pt;
+    
+}
 
-.fl {font-size: 15pt;
-    text-align: left;}
+
 
 .skills {height:135px;
-    width:930px;
+    width:933px;
     border-top:  width: 100%;
-   padding: 15px 20px;
+   padding: 10px 10px;
     margin-bottom: 40px;
-    margin-left:100px;
+    margin-left:160px;
     box-sizing: border-box;
     border: none;
     background-color:#f3f3f3;
@@ -137,6 +152,29 @@ margin-right: 40px;}
     border: 3px solid lightgrey;
     display: inline-block;
     position: inherit;
-    text-align: right;
-    border-bottom-style: double;
+    text-align: center;
+    padding-left: 1px;
+    letter-spacing: 1pt;
+   
 }
+
+.contact {height:177px;
+    width:933px;
+    border-top:  width: 100%;
+   padding: 10px 10px;
+    margin-bottom: 40px;
+    margin-left:160px;
+    box-sizing: border-box;
+    border: none;
+    background-color:#f3f3f3;
+    color: black;
+    border-radius: 10%;
+    margin-top: 40px;
+    border: 3px solid lightgrey;
+    display: inline-block;
+    position: inherit;
+    text-align: center;
+    padding-left: 1px;
+    letter-spacing: 1pt;
+font-size: 13pt;}
+

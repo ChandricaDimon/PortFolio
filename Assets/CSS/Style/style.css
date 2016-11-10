@@ -52,7 +52,10 @@ input[type=text] {
     border: 3px solid lightgrey;
 }
     
-.fa-link1 {margin: 12px;color: grey;padding-left: 25px}
+.fa-link1 {margin: 12px;
+    color: grey;
+    padding-left: 25px;
+    position: static;}
 
 .fa-link2 {margin: 5px;color: grey}
 
@@ -68,7 +71,7 @@ input[type=text] {
     border: 2px solid #e7e7e7;
     background-color: white;
     position: ;
-    width:930pxpx;
+    width:1670px;
     z-index:9999;
 }
 

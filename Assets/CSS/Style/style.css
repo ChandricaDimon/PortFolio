@@ -15,11 +15,13 @@ padding-bottom: 15px}
    
 }
 
+.graphic {padding-top: 11px}
+
 .gallery {display: inline-block;}
 
 
 .grey {
-    height:235px;
+    height:175px;
     width:930px;
     border-top:  width: 100%;
     padding: 15px 20px;
@@ -61,7 +63,7 @@ input[type=text] {
 
 .fa-link3 {margin: 5px;color: grey}
 
-.fa-link4 {margin: 5px;color: grey}
+.fa-link4 {margin: 10px;color: grey}
 
 .nav {
     list-style-type: none;
@@ -96,8 +98,7 @@ li a.active {
     background-color: grey; 
 }
 
-.sax {width: 298px;
-height:180px;padding: 20px}
+
 
 .rock {width: 240px;
 height:320px;padding: 20px;
@@ -116,10 +117,33 @@ padding-left: 30px;
 margin-top: 10px;
 margin-bottom: -60px}
 
+.trailer {width: 450px;
+height: 280px;
+padding-left: 150px;
+margin-top: 10px;
+margin-bottom: -60px}
+
+.tiki {width: 450px;
+height: 280px;
+padding-left: 30px;
+margin-top: 10px;
+margin-bottom: -60px}
+
+.special {width: 240px;
+height:320px;padding: 20px;
+margin-left: -16px}
 
 
+.mac {margin-top: 90px;
+padding-left: 250px}
 
+.freedom {height: 300px;
+margin-top: 40px;
+padding-left: 50px}
 
+.sax {height: 300px;
+margin-top: 40px;
+padding-left: 50px}
 
 
 
